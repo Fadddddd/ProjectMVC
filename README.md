@@ -1,2 +1,2 @@
-Version corrigee
+Correction de version
 # mvc_bdd
