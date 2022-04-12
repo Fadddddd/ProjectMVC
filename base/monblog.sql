@@ -2,7 +2,7 @@
 
 CREATE USER 'monbloguser'@'localhost' IDENTIFIED BY 'monblog#1234';
 create database monblog character set UTF8mb4 collate utf8mb4_bin;
-GRANT ALL PRIVILEGES ON monblog.* TO 'monbloguser'@'localhost';
+GRANT ALL PRIVILEGES ON monblog. TO 'monbloguser'@'localhost';
 
 drop table if exists T_COMMENTAIRE;
 drop table if exists T_BILLET;
